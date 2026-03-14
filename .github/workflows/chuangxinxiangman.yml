@@ -1,27 +1,27 @@
 name: chuangxinxiangman
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '7 8,20 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chuangxinxiangman
         env:
-          ckaxp161: ${{ secrets.ckaxp161 }}
+          c190: ${{ secrets.c190 }}
         run: |
-          printf '%s' "$ckaxp161" | jq -r .azd54688 | /bin/bash
-          printf '%s' "$zuhua2379" | jq -r .qoep3881 | /bin/bash
-          printf '%s' "$nwji28929" | jq -r .hhvio9712 | /bin/bash
-          printf '%s' "$zb67346" | jq -r .zqt0 | /bin/bash
-          echo $mw53 | jq -r .yv597 | /bin/bash
-          echo $cfyir592 | jq -r .vzur3992 | /bin/bash
-          printf '%s' "$f6239" | jq -r .xwjoj89 | /bin/bash
-          printf '%s' "$xzu6" | jq -r .slw6694 | /bin/bash
-          echo $wb01150 | jq -r .lho378 | /bin/bash
-          printf '%s' "$czesm7" | jq -r .g05 | /bin/bash
-          echo $gzqjp86 | jq -r .jl4757 | /bin/bash
+          printf '%s' "$c190" | jq -r .hcq541 | /bin/bash
+          printf '%s' "$n3309" | jq -r .rg5477 | /bin/bash
+          printf '%s' "$nppbj36912" | jq -r .c58534 | /bin/bash
+          printf '%s' "$nhfas95219" | jq -r .adh0522 | /bin/bash
+          printf '%s' "$tuamh2769" | jq -r .arcg0 | /bin/bash
+          printf '%s' "$sz3847" | jq -r .x4728 | /bin/bash
+          printf '%s' "$k7353" | jq -r .hg8 | /bin/bash
+          echo $razhs35260 | jq -r .wmdon97038 | /bin/bash
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: TLk1Jdms
+          path: "*.zip"
+          retention-days: 1
